@@ -1,0 +1,3154 @@
+
+    <div class="tabs-container">
+  <p class="section-title">Search by car type</p>
+  <div class="tabs">
+    <button class="tab active" data-tab="tab1">
+      <div class="tab-content-wrapper">
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4b42f59c-21bb-4d37-a4fd-0189eaa6f0ae/all-cars.webp?content-type=image%2Fwebp"
+          alt="All Cars">
+        <span class="tab-title">All Cars</span>
+      </div>
+    </button>
+    <button class="tab" data-tab="tab2">
+      <div class="tab-content-wrapper">
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/f88a8f7e-b48c-4c7a-8f8a-0c53ac7d0b06/6e940ab8e48c31d0d51519ac95ce61fb-1720413212.webp?content-type=image%2Fwebp"
+          alt="4×4s">
+        <span class="tab-title">4×4s</span>
+      </div>
+    </button>
+    <button class="tab" data-tab="tab3">
+      <div class="tab-content-wrapper">
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/fe2ad38c-516d-484e-8e91-019d1b0b6cf3/85735b32a82b9708fc26cf2ff0e1e6cf-1720413308.webp?content-type=image%2Fwebp"
+          alt="Dual Cab Utility">
+        <span class="tab-title">Dual Cab Utility</span>
+      </div>
+    </button>
+    <button class="tab" data-tab="tab4">
+      <div class="tab-content-wrapper">
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/cefc5d27-517c-4226-b341-4f86afb6b0f6/electric.webp?content-type=image%2Fwebp"
+          alt="Electric">
+        <span class="tab-title">Electric</span>
+      </div>
+    </button>
+    <button class="tab" data-tab="tab5">
+      <div class="tab-content-wrapper">
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/424666dd-561c-4f2c-a1f1-0f9263cd54cd/family.webp?content-type=image%2Fwebp"
+          alt="Family">
+        <span class="tab-title">Family</span>
+      </div>
+    </button>
+    <button class="tab" data-tab="tab6">
+      <div class="tab-content-wrapper">
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/2b992b80-cf5f-4208-8d84-cb32525efdcf/phev-thumbnail.webp?content-type=image%2Fwebp"
+          alt="Family">
+        <span class="tab-title">PHEV</span>
+      </div>
+    </button>
+    <!-- <button class="tab" data-tab="tab7">
+      <div class="tab-content-wrapper">
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/ec242a4d-5786-4b07-bae3-0488dc89cf0e/prestige.webp?content-type=image%2Fwebp"
+          alt="Family">
+        <span class="tab-title">Prestige</span>
+      </div>
+    </button> -->
+  </div>
+
+  <div class="filter-results-container">
+    <div class="filters-section">
+      <div class="filter">
+        <select id="carMakeFilter">
+          <option value="all">All Makes</option>
+          <option value="toyota">TOYOTA</option>
+          <option value="ford">FORD</option>
+          <option value="mazda">MAZDA</option>
+          <option value="kia">KIA</option>
+          <option value="mitsubishi">MITSUBISHI</option>
+          <option value="porsche">PORSCHE</option>
+          <option value="nissan">NISSAN</option>
+          <option value="bmw">BMW</option>
+          <option value="tesla">TESLA</option>
+          <option value="byd">BYD</option>
+          <option value="polestar">POLESTAR</option>
+          <option value="hyundai">HYUNDAI</option>
+          <option value="mg">MG</option>
+          <option value="subaru">SUBARU</option>
+          <option value="mercedes-benz">MERCEDES-BENZ</option>
+          <option value="alfa romeo">ALFA ROMEO</option>
+          <option value="audi">AUDI</option>
+          <option value="chery">CHERY</option>
+          <option value="chevrolet">CHEVROLET</option>
+          <option value="cupra">CUPRA</option>
+          <option value="deepal">DEEPAL</option>
+          <option value="fiat">FIAT</option>
+          <option value="geely">GEELY</option>
+          <option value="genesis">GENESIS</option>
+          <option value="gwm">GWM</option>
+          <option value="haval">HAVAL</option>
+          <option value="honda">HONDA</option>
+          <option value="ineos">INEOS</option>
+          <option value="isuzu">ISUZU</option>
+          <option value="jeep">JEEP</option>
+          <option value="land rover">LAND ROVER</option>
+          <option value="ldv">LDV</option>
+          <option value="leapmotor">LEAPMOTOR</option>
+          <option value="lexus">LEXUS</option>
+          <option value="mini">MINI</option>
+          <option value="peugeot">PEUGEOT</option>
+          <option value="ram">RAM</option>
+          <option value="renault">RENAULT</option>
+          <option value="skoda">SKODA</option>
+          <option value="smart">SMART</option>
+          <option value="suzuki">SUZUKI</option>
+          <option value="volkswagen">VOLKSWAGEN</option>
+          <option value="volvo">VOLVO</option>
+          <option value="xpeng">XPENG</option>
+          <option value="zeekr">ZEEKR</option>
+
+        </select>
+      </div>
+
+      <div class="filter">
+        <select id="engineTypeFilter">
+          <option value="all">All Engine Types</option>
+          <option value="petrol">Petrol</option>
+          <option value="diesel">Diesel</option>
+          <option value="hybrid">Hybrid</option>
+          <option value="electric">Electric</option>
+          <option value="phev">PHEV</option>
+        </select>
+      </div>
+
+      <div class="filter">
+        <select id="priceFilter">
+          <option value="all">All Prices</option>
+          <option value="$150 to $200 p/w">$150 to $200 p/w</option>
+          <option value="$201 to $250 p/w">$201 to $250 p/w</option>
+          <option value="$251 to $300 p/w">$251 to $300 p/w</option>
+          <option value="$301 to $350 p/w">$301 to $350 p/w</option>
+          <option value="$351 to $400 p/w">$351 to $400 p/w</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="results-count">
+      Showing <span id="startCount">1</span> - <span id="endCount">10</span> of <span id="totalCount">331</span> results
+    </div>
+  </div>
+
+
+
+  <!-- Loading overlay -->
+  <div class="loading-overlay">
+    <div class="loader"></div>
+  </div>
+
+  <div class="tab-content active" id="tab1">
+    <!-- All car cards -->
+    <!-- March month cards -->
+    <div class="card" data-make="tesla" data-engine="electric" data-price="$250 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TESLA MODEL 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/ce4a1fde-9cc2-4b81-8a37-d896fcf7329e/image+-+2025-09-08T155013.465.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$289</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/tesla-model-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW IX1</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5cd12882-1c84-474c-93e9-42cd7109730a/Mask+group+%2846%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$410</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-ix1-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW IX2</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4ee15a34-3c49-4656-95d6-bd90083b39e2/Mask+group+-+2025-09-26T123903.527.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$415</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-ix2-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="volvo" data-engine="petrol" data-price="$351 to $400 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLVO XC40</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/a7978bd5-5a72-4d3c-bf9b-2211652a373e/Mask+group+%2848%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$363</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volvo-xc40-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="volvo" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLVO EX30</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/87209946-80fd-40fc-83a6-4e5ec2f43b20/Mask+group+-+2025-09-26T122914.987.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$271</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volvo-ex30-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="byd" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BYD ATTO 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/a183ecb2-97c0-4535-9807-99733c94c4a3/Mask+group+%2897%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$220</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/byd-atto-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mercedes-benz" data-engine="electric" data-price="$351 to $400 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQA</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/e3d0d05b-44d2-4c42-941c-c18bc188defa/image+-+2025-09-08T155039.324.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$396</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-eqa-250-novated-lease"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mercedes-benz" data-engine="electric" data-price="$851 to $900 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQE</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/7e487a7c-2616-4f73-9ca8-fa178125dde7/Mask+group+-+2025-09-26T123554.384.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$863</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-eqe-suv-novated-lease"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mazda" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA CX-30</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/a6ac808a-6cca-4160-9c75-d4f03d005c7f/image+-+2025-09-16T142432.806.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$281</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-cx30-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="volkswagen" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLKSWAGEN GOLF 8</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/77ab9578-bae5-4cf8-a84e-65753b849a63/Mask+group+%2880%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volkswagen-golf-8-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="porsche" data-engine="electric" data-price="$451 to $500 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">PORSCHE Macan 95B</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/b2e01d61-6f56-410b-a424-c7ec74d72979/Mask+group+%2847%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$549</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/porsche-macan-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="ford" data-engine="phev" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | PHEV, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">FORD ESCAPE</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/c8c212f2-cb79-40cb-a1ef-1898c4e9e017/Mask+group+%2850%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$271</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/ford-novated-lease/ford-escape" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <!-- April month car cards -->
+    <div class="card" data-make="ford" data-engine="diesel" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | 4x4s, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">FORD EVEREST</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4cb5bae1-8f24-4f6f-815d-f52282ea57dd/Mask+group+%2898%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$343</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/ford-novated-lease/ford-everest" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="ford" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">Ford Mustang Mach-E</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5d6b03ef-f39f-4ecc-b161-dc6f2c9c6193/Mask+group+%2881%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/ford-novated-lease/mustang-mach-e" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="porsche" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">Porsche Taycan</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4470662e-e52e-4eb9-a66c-55bfad3b4db8/Mask+group+%2882%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/porsche-novated-lease/porsche-taycan" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="toyota" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA BZ4X</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/05f1beb1-e4c8-437e-ba79-4d428cf96bd0/Mask+group+%2851%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$305</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-novated-lease/toyota-bz4x" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW i3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/dca7fd2d-78c0-491b-b5c1-743cd4976a42/Mask+group+%2883%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-novated-lease/bmw-i3" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="bmw" data-engine="petrol" data-price="$601 to $650 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW I4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/9dd2077a-dbd9-4e1a-943e-fc4b13daa106/BMW+I4.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$603</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-novated-lease/bmw-i4" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW IX3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/91f28d85-310d-42a3-b88a-4d61a74a0203/BMW+IX3.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$434</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-novated-lease/bmw-ix3" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mercedes-benz" data-engine="petrol" data-price="$751 to $800 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Prestige, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQC</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/313469f2-c547-4620-8040-f6e30b62f8b2/Mask+group+%2852%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$796</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-novated-lease/mercedes-benz-eqc"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mercedes-benz" data-engine="petrol" data-price="$1559 to $1600 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQS</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/b4531692-7a4a-4152-923d-c25d356c9d86/Mask+group+%2884%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$1,599</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-novated-lease/mercedes-benz-eqs"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="byd" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BYD SEAL</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/cc47ca2e-cd07-470b-a667-cdfb57bf552a/Mask+group+%2853%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$240</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/byd-novated-lease/byd-seal" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="volvo" data-engine="electric" data-price="$351 to $400 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLVO C40</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/c0760b63-e806-4476-a0e3-60387f193cf3/Mask+group+%2854%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$364</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volvo-novated-lease/volvo-c40" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="tesla" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TESLA MODEL Y</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/1dea0718-40f8-4059-bbeb-74a72df9b7d5/Mask+group+%2855%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$306</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/tesla-model-y-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="ford" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">Ford Mustang Mach-E</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/af41731c-76dd-4f09-97e7-614d69c6979a/Mask+group+%2885%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/ford-novated-lease/ford-mustang-mach-e-2024" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="byd" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BYD SEALION 6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/55997f5a-d3b7-44bd-8cf9-8dca78b4f4dd/BYD+S+6.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$307</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/byd-novated-lease/byd-sealion-6-dynamic"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW IX3M SPORT</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/2932a5da-9ddb-4039-a487-b345fc86cc59/BMW+IX+3M+S.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$434</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-novated-lease/2024-bmw-ix3-m-sport"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <!-- May month car cards -->
+    <div class="card" data-make="kia" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA EV6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/3c8db87d-9b2e-48f2-acee-5a1eb2a887bd/KIA+EV+6.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$333</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-ev6-air-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="kia" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA EV3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/873066aa-64fe-413c-ae5a-fab24f019f5a/Mask+group+-+2025-09-25T102114.620.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$251</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-ev3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA EV5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/34f3ddca-7d9b-414a-9dfe-aca2cbe0c9e8/Mask+group+-+2025-09-25T102550.723.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$267</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-ev5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="petrol" data-price="$751 to $800 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA EV9</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/ee31ae70-4f67-475d-9822-0b305b5c5427/Mask+group+-+2025-09-25T103005.833.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$745</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-ev9-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="toyota" data-engine="diesel" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | DCU, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA HILUX</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/dc2b236f-86ba-4394-9902-96238402485e/T+HILUX.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$441</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-hilux-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="hybrid" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA RAV4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/3764da4d-f3fa-4102-a70d-27ed07c4dc0e/Mask+group+%2856%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$269</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-rav4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="toyota" data-engine="diesel" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">Toyota Prado</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/819312eb-6c12-4f19-9f07-7309a0a55d0a/Mask+group+%2886%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-prado-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="toyota" data-engine="diesel" data-price="$601 to $650 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | 4x4s, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA LANDCRUISER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/ee387442-ef31-47e8-9489-99d7ca9fc1e9/Mask+group+%2857%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$618</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-landcruiser-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="petrol" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Under $200, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA COROLLA</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/d11bf5ea-d78a-41e8-8e31-4929b43ec42f/Mask+group+%2858%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$219</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-corolla-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mazda" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA CX-5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/6232e3b9-5d05-4fa2-8405-8b46e86bff39/Mask+group+%2859%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$255</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-cx-5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="hybrid" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA CAMRY</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/32fc54e6-e67b-4f63-9daf-cce2c2a843d4/Mask+group+%2887%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$250</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-camry-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mazda" data-engine="petrol" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | PHEV, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/85627e07-f91f-4946-8523-888994b2a590/MAZDA+3.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$220</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mazda" data-engine="diesel" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | PHEV, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA BT-50</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/0dc1031a-6d90-4a62-a9fc-5e3c31489114/M+BT+50.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$273</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-bt-50-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mitsubishi" data-engine="diesel" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | DCU, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MITSUBISHI TRITON</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/69543db7-a131-4f66-afd6-21837d338a79/M+TRITON.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$324</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mitsubishi-triton-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="hyundai" data-engine="hybrid" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI TUCSON</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/872d6479-fd95-4d24-be97-eea3dcf505b6/Mask+group+%2860%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$254</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-tucson-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <!-- June month car cards -->
+    <div class="card" data-make="hyundai" data-engine="petrol" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI I30</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5e9340d4-1271-48cd-a7b5-2da58281168f/Mask+group+%2861%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$347</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-i30-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="subaru" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">SUBARU FORESTER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/7aee5b66-7cb1-4d05-b764-214a3d30b514/Mask+group+%2862%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$262</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/subaru-forester-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="ford" data-engine="diesel" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | DCU, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">FORD RANGER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/e705a938-4ec3-4dc0-844a-dc5847f225a2/F+RANGER.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$416</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/ford-ranger-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="isuzu" data-engine="diesel" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | DCU, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">ISUZU D-MAX</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/95375f4c-f7b7-4c53-9a45-3b9ba8b9212b/Mask+group+%2863%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$343</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/isuzu-d-max-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="isuzu" data-engine="diesel" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | 4x4s, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">ISUZU MU-X</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/3dfcb591-163b-4c1c-8a3d-2279629c0ab7/Mask+group+%2864%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$324</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/isuzu-mu-x-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mg" data-engine="petrol" data-price="$150 to $200 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG ZS</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/332c85bc-0470-4134-adee-fe3dc45e0259/Mask+group+%2865%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$194</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg-zs-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="petrol" data-price="$150 to $200 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA CERATO</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/f7faa462-2f06-4d44-b447-96624ab57211/Mask+group+%2888%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$186</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-cerato-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="nissan" data-engine="hybrid" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">NISSAN X-TRAIL</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/29e8c299-7ef5-463b-9bb2-7cb10aecd5d2/N+X+TRAIL.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$258</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/nissan-x-trail-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="kia" data-engine="petrol" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA SPORTAGE</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/43d5bad1-e252-44b3-aff5-722454377ecb/KIA+SPORTAGE.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$301</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-sportage-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mercedes-benz" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQB</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/b7ff502a-2733-4680-8181-09bf6564068d/Mask+group+%2866%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$428</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-novated-lease/mercedes-benz-eqb"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mitsubishi" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MITSUBISHI OUTLANDER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/6e03667a-b716-4ad3-83bd-88d1fdcc3fc2/M+OUTLANDER.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$262</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mitsubishi-outlander-novated-lease"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="hyundai" data-engine="petrol" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI KONA</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/08d59059-9d3d-4046-b14d-9ef39b5feda6/image+-+2025-09-22T111923.605.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$345</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-kona-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="diesel" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA SORENTO</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/f50f98af-f951-4e70-b82a-62d57c59bcc7/Mask+group+%2867%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$336</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-sorento-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="kia" data-engine="diesel" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">Kia Tasman UTE</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/860795d4-2bff-47df-8c82-ac9a6d6e2e40/Mask+group+%2889%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-tasman-ute-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mg" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG S5 EV</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/c33b3831-b571-4a48-ab49-569ee7d8fc55/Mask+group+%2890%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg-s5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="volkswagen" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLKSWAGEN ID.4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/71604f3e-c3ad-4e54-b0c7-b7337993d7e8/Mask+group+%2868%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$279</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volkswagen-id4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="xpeng" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">XPENG G6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/866304b2-e6b0-4263-977c-f0ecf229edc4/Mask+group+%28100%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$278</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/xpeng-g6-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="geely" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">GEELY EX5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/e450127b-ed62-46a4-bedd-22e5ac9cab53/Mask+group+-+2025-09-24T145314.053.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$231</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/geely-ex5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="audi" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">AUDI Q4 E-Tron</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/da65a4c4-56a1-41bf-8eba-96892e81b8b7/Mask+group+-+2025-09-24T150202.988.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/audi-q4-e-tron-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mg" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG IM5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/64882b2b-7bb3-4ad9-9503-9256209c34ff/Mask+group+%2891%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg-im5-novated-lease/" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mg" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG IM6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/b66492e0-bf1c-4b61-89b6-074c679f832e/Mask+group+%2892%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg-im6-novated-lease/" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <!-- MG Car pages cards -->
+
+    <div class="card" data-make="mg" data-engine="petrol" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG HS</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/07255bad-f664-4c39-ad5c-5f66a97d8b34/Mask+group+%2869%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$229</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg-hs-novated-lease/" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mg" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4c52a927-27cf-4f4e-ae6a-ee911f1035c5/Mask+group+%2870%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$202</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mg" data-engine="petrol" data-price="$701 to $750 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | , <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG CYBERSTER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/49766897-d337-4dcc-842a-ec37e6e7d8e3/Mask+group+%2893%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$701</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg-cyberster-novated-lease/" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mg" data-engine="petrol" data-price="$150 to $200 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG MG3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5fc42a85-0958-4c5d-8e10-d61475ded742/Mask+group+%2871%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$194</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg3-novated-lease/" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <!-- EV Car pages cards -->
+
+    <div class="card" data-make="nissan" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">NISSAN LEAF</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/1eaf9fa8-3c11-4a41-b1d1-15a3f42ef7de/Mask+group+%2872%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$253</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/nissan-leaf-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="polestar" data-engine="electric" data-price="$801 to $850 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">POLESTAR 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/04c00a8e-ef81-45db-9fe1-fb33b63a40ff/Mask+group+%2873%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$836</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/polestar-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="polestar" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">POLESTAR 2</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/a95e9ad1-5f56-452d-94fc-df2e385c674a/Mask+group+-+2025-09-25T095346.652.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$239</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/polestar-2-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="polestar" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">POLESTAR 4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/8d00c6f6-cd91-4ecb-a7fa-6320e35472a2/Mask+group+-+2025-09-25T095701.622.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$379</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/polestar-4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="hyundai" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI IONIQ 6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/87eeab2f-9daf-4e5a-b831-517bde599dc6/image+-+2025-09-22T100110.109.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$302</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-ioniq-6-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="hyundai" data-engine="petrol" data-price="$351 to $400 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI IONIQ 5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/aef77808-47d4-4c4a-b8a9-340ac7682849/Mask+group+-+2025-09-25T100435.192.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$362</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-ioniq-5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="gwm" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">GWM ORA</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5f1b0f3b-e1b0-4311-bff1-90796181c326/Mask+group+%2874%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$211</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/gwm-ora-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="cupra" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">CUPRA BORN</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5cc3b209-e38a-4019-a5a0-30d500af0974/Mask+group+%2875%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$279</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/cupra-born-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="genesis" data-engine="petrol" data-price="$901 to $950 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">GENESIS G80</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/6a4ef7a6-1622-4e8f-b3e3-dfab30cbece5/Mask+group+%2894%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$939</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/genesis-electrified-g80-novated-lease"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="ldv" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">LDV eDeliver 9</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/bd268322-4651-4ab0-8cc3-8cce98361b46/Mask+group+%2895%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/ldv-edeliver-9-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="chery" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">CHERY OMODA E5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/0c49cdf4-40d9-49b3-b7a4-28196942ab95/Mask+group+%2876%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$214</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/chery-omoda-e5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="jeep" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">JEEP AVENGER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/8bacd73b-6b09-40ed-a4a1-0f6d8a92c6d6/image+-+2025-09-22T102718.823.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$262</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/jeep-avenger-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="leapmotor" data-engine="petrol" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">LEAPMOTOR C10</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/e4c0b52b-33f3-4c3a-9589-8b1d372301e3/Mask+group+%2877%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$249</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/leapmotor-c10-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="smart" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">SMART 1</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4ee2b312-fdc2-4c8f-b3d9-61c1aa317f38/Mask+group+%2878%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$316</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/smart-1-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="smart" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">SMART 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/fbd0d078-c9e6-4707-aabf-86687248e2da/Mask+group+%2899%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$328</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/smart-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="zeekr" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">ZEEKR X</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/7a25a23e-fcb8-4970-87ca-809e28279abd/Mask+group+%2896%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$263</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/zeekr-x-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="pagination"></div>
+  </div>
+ 
+
+  <div class="tab-content" id="tab2">
+    <div class="card" data-make="toyota" data-engine="hybrid" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA RAV4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/3764da4d-f3fa-4102-a70d-27ed07c4dc0e/Mask+group+%2856%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$269</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-rav4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="diesel" data-price="$601 to $650 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | 4x4s, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA LANDCRUISER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/ee387442-ef31-47e8-9489-99d7ca9fc1e9/Mask+group+%2857%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$618</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-landcruiser-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mazda" data-engine="diesel" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | PHEV, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA BT-50</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/0dc1031a-6d90-4a62-a9fc-5e3c31489114/M+BT+50.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$273</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-bt-50-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="isuzu" data-engine="diesel" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | 4x4s, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">ISUZU MU-X</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/3dfcb591-163b-4c1c-8a3d-2279629c0ab7/Mask+group+%2864%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$324</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/isuzu-mu-x-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="nissan" data-engine="hybrid" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">NISSAN X-TRAIL</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/29e8c299-7ef5-463b-9bb2-7cb10aecd5d2/N+X+TRAIL.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$258</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/nissan-x-trail-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <!-- June month cards -->
+
+
+    <div class="pagination"></div>
+  </div>
+
+
+  <div class="tab-content" id="tab3">
+    <div class="card" data-make="toyota" data-engine="diesel" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | DCU, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA HILUX</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/dc2b236f-86ba-4394-9902-96238402485e/T+HILUX.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$441</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-hilux-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="ford" data-engine="diesel" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | DCU, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">FORD RANGER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/e705a938-4ec3-4dc0-844a-dc5847f225a2/F+RANGER.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$416</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/ford-ranger-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="isuzu" data-engine="diesel" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | DCU, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">ISUZU D-MAX</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/95375f4c-f7b7-4c53-9a45-3b9ba8b9212b/Mask+group+%2863%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$343</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/isuzu-d-max-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mitsubishi" data-engine="diesel" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | DCU, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MITSUBISHI TRITON</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/69543db7-a131-4f66-afd6-21837d338a79/M+TRITON.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$324</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mitsubishi-triton-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="kia" data-engine="diesel" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">Kia Tasman UTE</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/860795d4-2bff-47df-8c82-ac9a6d6e2e40/Mask+group+%2889%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            <strong style="font-size: 18px;">Unlock Your Rate</strong>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-tasman-ute-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="mazda" data-engine="diesel" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | PHEV, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA BT-50</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/0dc1031a-6d90-4a62-a9fc-5e3c31489114/M+BT+50.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$273</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-bt-50-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="pagination"></div>
+  </div>
+
+
+
+  <div class="tab-content" id="tab4">
+    <div class="card" data-make="tesla" data-engine="electric" data-price="$250 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TESLA MODEL 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/ce4a1fde-9cc2-4b81-8a37-d896fcf7329e/image+-+2025-09-08T155013.465.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$289</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/tesla-model-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW IX1</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5cd12882-1c84-474c-93e9-42cd7109730a/Mask+group+%2846%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$410</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-ix1-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="byd" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BYD ATTO 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/a183ecb2-97c0-4535-9807-99733c94c4a3/Mask+group+%2897%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$220</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/byd-atto-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mercedes-benz" data-engine="electric" data-price="$351 to $400 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQA</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/e3d0d05b-44d2-4c42-941c-c18bc188defa/image+-+2025-09-08T155039.324.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$396</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-eqa-250-novated-lease"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA BZ4X</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/05f1beb1-e4c8-437e-ba79-4d428cf96bd0/Mask+group+%2851%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$305</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-novated-lease/toyota-bz4x" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW IX3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/91f28d85-310d-42a3-b88a-4d61a74a0203/BMW+IX3.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$434</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-novated-lease/bmw-ix3" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="byd" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BYD SEAL</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/cc47ca2e-cd07-470b-a667-cdfb57bf552a/Mask+group+%2853%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$240</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/byd-novated-lease/byd-seal" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="volvo" data-engine="electric" data-price="$351 to $400 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLVO C40</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/c0760b63-e806-4476-a0e3-60387f193cf3/Mask+group+%2854%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$364</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volvo-novated-lease/volvo-c40" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="tesla" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TESLA MODEL Y</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/1dea0718-40f8-4059-bbeb-74a72df9b7d5/Mask+group+%2855%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$306</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/tesla-model-y-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="byd" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BYD SEALION 6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/55997f5a-d3b7-44bd-8cf9-8dca78b4f4dd/BYD+S+6.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$307</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/byd-novated-lease/byd-sealion-6-dynamic"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | PHEV, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW IX3M SPORT</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/2932a5da-9ddb-4039-a487-b345fc86cc59/BMW+IX+3M+S.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$434</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-novated-lease/2024-bmw-ix3-m-sport"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA EV6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/3c8db87d-9b2e-48f2-acee-5a1eb2a887bd/KIA+EV+6.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$333</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-ev6-air-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mercedes-benz" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQB</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/b7ff502a-2733-4680-8181-09bf6564068d/Mask+group+%2866%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$428</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-novated-lease/mercedes-benz-eqb"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mg" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4c52a927-27cf-4f4e-ae6a-ee911f1035c5/Mask+group+%2870%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$202</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="nissan" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">NISSAN LEAF</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/1eaf9fa8-3c11-4a41-b1d1-15a3f42ef7de/Mask+group+%2872%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$253</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/nissan-leaf-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="polestar" data-engine="electric" data-price="$801 to $850 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">POLESTAR 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/04c00a8e-ef81-45db-9fe1-fb33b63a40ff/Mask+group+%2873%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$836</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/polestar-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="polestar" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">POLESTAR 2</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/a95e9ad1-5f56-452d-94fc-df2e385c674a/Mask+group+-+2025-09-25T095346.652.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$239</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/polestar-2-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="polestar" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">POLESTAR 4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/8d00c6f6-cd91-4ecb-a7fa-6320e35472a2/Mask+group+-+2025-09-25T095701.622.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$379</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/polestar-4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="hyundai" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI IONIQ 6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/87eeab2f-9daf-4e5a-b831-517bde599dc6/image+-+2025-09-22T100110.109.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$302</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-ioniq-6-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="gwm" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">GWM ORA</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5f1b0f3b-e1b0-4311-bff1-90796181c326/Mask+group+%2874%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$211</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/gwm-ora-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="cupra" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">CUPRA BORN</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5cc3b209-e38a-4019-a5a0-30d500af0974/Mask+group+%2875%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$279</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/cupra-born-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="chery" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">CHERY OMODA E5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/0c49cdf4-40d9-49b3-b7a4-28196942ab95/Mask+group+%2876%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$214</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/chery-omoda-e5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="jeep" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">JEEP AVENGER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/8bacd73b-6b09-40ed-a4a1-0f6d8a92c6d6/image+-+2025-09-22T102718.823.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$262</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/jeep-avenger-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="smart" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">SMART 1</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4ee2b312-fdc2-4c8f-b3d9-61c1aa317f38/Mask+group+%2878%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$316</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/smart-1-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="smart" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">SMART 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/fbd0d078-c9e6-4707-aabf-86687248e2da/Mask+group+%2899%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$328</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/smart-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="volkswagen" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLKSWAGEN ID.4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/71604f3e-c3ad-4e54-b0c7-b7337993d7e8/Mask+group+%2868%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$279</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volkswagen-id4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="xpeng" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">XPENG G6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/866304b2-e6b0-4263-977c-f0ecf229edc4/Mask+group+%28100%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$278</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/xpeng-g6-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="geely" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">GEELY EX5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/e450127b-ed62-46a4-bedd-22e5ac9cab53/Mask+group+-+2025-09-24T145314.053.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$231</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/geely-ex5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="card" data-make="kia" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA EV3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/873066aa-64fe-413c-ae5a-fab24f019f5a/Mask+group+-+2025-09-25T102114.620.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$251</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-ev3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA EV5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/34f3ddca-7d9b-414a-9dfe-aca2cbe0c9e8/Mask+group+-+2025-09-25T102550.723.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$267</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-ev5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="volvo" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLVO EX30</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/87209946-80fd-40fc-83a6-4e5ec2f43b20/Mask+group+-+2025-09-26T122914.987.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$271</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volvo-ex30-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mercedes-benz" data-engine="electric" data-price="$851 to $900 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQE</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/7e487a7c-2616-4f73-9ca8-fa178125dde7/Mask+group+-+2025-09-26T123554.384.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$863</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-eqe-suv-novated-lease"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="bmw" data-engine="electric" data-price="$401 to $450 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW IX2</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4ee15a34-3c49-4656-95d6-bd90083b39e2/Mask+group+-+2025-09-26T123903.527.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$415</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-ix2-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="pagination"></div>
+  </div>
+
+
+  <div class="tab-content" id="tab5">
+    <div class="card" data-make="byd" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BYD SEAL</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/eae3b406-455a-4fda-a10c-224cf2dc066a/BYD+SEAL.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$240</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/byd-novated-lease/byd-seal" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="hybrid" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA RAV4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/3764da4d-f3fa-4102-a70d-27ed07c4dc0e/Mask+group+%2856%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$269</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-rav4-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mazda" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA CX-5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/6232e3b9-5d05-4fa2-8405-8b46e86bff39/Mask+group+%2859%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$255</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-cx-5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="subaru" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">SUBARU FORESTER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/7aee5b66-7cb1-4d05-b764-214a3d30b514/Mask+group+%2862%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$262</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/subaru-forester-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="nissan" data-engine="hybrid" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">NISSAN X-TRAIL</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/29e8c299-7ef5-463b-9bb2-7cb10aecd5d2/N+X+TRAIL.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$258</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/nissan-x-trail-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mitsubishi" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MITSUBISHI OUTLANDER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/6e03667a-b716-4ad3-83bd-88d1fdcc3fc2/M+OUTLANDER.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$262</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mitsubishi-outlander-novated-lease"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="hybrid" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA CAMRY</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/32fc54e6-e67b-4f63-9daf-cce2c2a843d4/Mask+group+%2887%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$250</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-camry-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mazda" data-engine="petrol" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA CX-30</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/a6ac808a-6cca-4160-9c75-d4f03d005c7f/image+-+2025-09-16T142432.806.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$281</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-cx30-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="hyundai" data-engine="petrol" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI I30</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5e9340d4-1271-48cd-a7b5-2da58281168f/Mask+group+%2861%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$347</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-i30-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="petrol" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Under $200, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA COROLLA</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/d11bf5ea-d78a-41e8-8e31-4929b43ec42f/Mask+group+%2858%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$219</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-corolla-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mg" data-engine="petrol" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG HS</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/07255bad-f664-4c39-ad5c-5f66a97d8b34/Mask+group+%2869%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$229</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg-hs-novated-lease/" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mg" data-engine="petrol" data-price="$150 to $200 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG ZS</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/332c85bc-0470-4134-adee-fe3dc45e0259/Mask+group+%2865%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$194</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg-zs-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="bmw" data-engine="petrol" data-price="$601 to $650 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | , <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">BMW I4</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/9dd2077a-dbd9-4e1a-943e-fc4b13daa106/BMW+I4.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$603</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/bmw-novated-lease/bmw-i4" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mazda" data-engine="petrol" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | PHEV, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MAZDA 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/85627e07-f91f-4946-8523-888994b2a590/MAZDA+3.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$220</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mazda-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="cupra" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">CUPRA BORN</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5cc3b209-e38a-4019-a5a0-30d500af0974/Mask+group+%2875%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$279</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/cupra-born-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="hyundai" data-engine="hybrid" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI TUCSON</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/872d6479-fd95-4d24-be97-eea3dcf505b6/Mask+group+%2860%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$254</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-tucson-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="volvo" data-engine="petrol" data-price="$351 to $400 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLVO XC40</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/a7978bd5-5a72-4d3c-bf9b-2211652a373e/Mask+group+%2848%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$363</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volvo-xc40-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="volvo" data-engine="electric" data-price="$351 to $400 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">VOLVO C40</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/c0760b63-e806-4476-a0e3-60387f193cf3/Mask+group+%2854%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$364</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/volvo-novated-lease/volvo-c40" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mercedes-benz" data-engine="petrol" data-price="$1559 to $1600 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MERCEDES-BENZ EQS</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/b4531692-7a4a-4152-923d-c25d356c9d86/Mask+group+%2884%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$1,599</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mercedes-benz-novated-lease/mercedes-benz-eqs"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA EV6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/3c8db87d-9b2e-48f2-acee-5a1eb2a887bd/KIA+EV+6.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$333</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-ev6-air-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="petrol" data-price="$150 to $200 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA CERATO</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/f7faa462-2f06-4d44-b447-96624ab57211/Mask+group+%2888%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$186</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-cerato-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="kia" data-engine="petrol" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">KIA SPORTAGE</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/43d5bad1-e252-44b3-aff5-722454377ecb/KIA+SPORTAGE.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$301</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/kia-sportage-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="hyundai" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">HYUNDAI IONIQ 6</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/b5fe49bb-1d86-49d5-b7da-20ced6fec47d/fff.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$302</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/hyundai-ioniq-6-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="toyota" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">TOYOTA BZ4X</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/05f1beb1-e4c8-437e-ba79-4d428cf96bd0/Mask+group+%2851%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$305</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/toyota-novated-lease/toyota-bz4x" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="jeep" data-engine="electric" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">JEEP AVENGER</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/8bacd73b-6b09-40ed-a4a1-0f6d8a92c6d6/image+-+2025-09-22T102718.823.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$262</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/jeep-avenger-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="mg" data-engine="petrol" data-price="$150 to $200 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">MG MG3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5fc42a85-0958-4c5d-8e10-d61475ded742/Mask+group+%2871%29.png?content-type=image%2Fpng  "
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$194</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/mg3-novated-lease/" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="chery" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">CHERY OMODA E5</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/0c49cdf4-40d9-49b3-b7a4-28196942ab95/Mask+group+%2876%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$214</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/chery-omoda-e5-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="leapmotor" data-engine="petrol" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">LEAPMOTOR C10</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/e4c0b52b-33f3-4c3a-9589-8b1d372301e3/Mask+group+%2877%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$249</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/leapmotor-c10-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="smart" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">SMART 1</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/4ee2b312-fdc2-4c8f-b3d9-61c1aa317f38/Mask+group+%2878%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$316</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/smart-1-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="smart" data-engine="electric" data-price="$301 to $350 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">SMART 3</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/fbd0d078-c9e6-4707-aabf-86687248e2da/Mask+group+%2899%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$328</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/smart-3-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="genesis" data-engine="petrol" data-price="$901 to $950 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Family, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">GENESIS G80</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/6a4ef7a6-1622-4e8f-b3e3-dfab30cbece5/Mask+group+%2894%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$939</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/genesis-electrified-g80-novated-lease"
+            class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+    <div class="card" data-make="gwm" data-engine="electric" data-price="$201 to $250 p/w">
+      <div class="car-card">
+        <div class="top-text">2025 | Electric, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">GWM ORA</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/5f1b0f3b-e1b0-4311-bff1-90796181c326/Mask+group+%2874%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$211</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/gwm-ora-novated-lease" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="pagination"></div>
+  </div>
+
+  <div class="tab-content" id="tab6">
+    <div class="card" data-make="ford" data-engine="phev" data-price="$251 to $300 p/w">
+      <div class="car-card">
+        <div class="top-text">2024 | PHEV, <span>Fully Maintained, all-inclusive</span></div>
+        <div class="title">FORD ESCAPE</div>
+        <img
+          src="https://images.squarespace-cdn.com/content/650cd8e5dd24ac01430ff7dd/c8c212f2-cb79-40cb-a1ef-1898c4e9e017/Mask+group+%2850%29.png?content-type=image%2Fpng"
+          alt="Toyota Landcruiser Prado">
+
+        <div class="price-row">
+          <div class="price">
+            From <strong>$271</strong> <span>per week</span>
+          </div>
+          <a href="https://novatedfinanceaustralia.com.au/ford-novated-lease/ford-escape" class="view-button">View</a>
+        </div>
+
+        <button class="button">Calculate Total Savings</button>
+      </div>
+    </div>
+
+    <div class="pagination"></div>
+  </div>
+
+</div>
